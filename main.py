@@ -8,8 +8,6 @@ class MP3:
         self.SONG_END=pygame.USEREVENT+1
         pygame.mixer.music.set_endevent(self.SONG_END)
         self.window=window
-        self.p1 = PhotoImage(file = 'mp3.png')
-        self.window.iconphoto(False,self.p1)
         self.window.geometry("600x200")
         self.window.title("MP3 Player by Robert Collingwood")
         self.EXTEN = ['.mp3']
